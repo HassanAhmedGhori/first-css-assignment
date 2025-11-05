@@ -178,3 +178,59 @@ button{
         font-size: 0.9em;
     }
 }
+@media screen and (max-width: 320px) {
+    .main {
+        flex-direction: column;
+        width: 95%;
+        padding: 20px 15px;
+        border-radius: 15px;
+    }
+
+    .box-left,
+    .box-right {
+        width: 100%;
+        align-items: start;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .box-right {
+        align-items: start;
+        margin-left: 0;
+    }
+
+    input {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    button {
+        width: 25%;
+        padding: 12px;
+        font-size: 1em;
+        align-self: flex-end;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: start;
+        justify-content: space-between;
+        gap: 40px;
+        font-size: 0.8em;
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .two {
+        gap: 15px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 0.9em;
+    }
+}
